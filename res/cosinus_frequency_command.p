@@ -1,6 +1,6 @@
 unset grid
 set terminal pdf
-set output "sinus.pdf"
+set output "cosinus_frequency.pdf"
 set key box top left
 set multi
 set key opaque
@@ -14,7 +14,7 @@ set xtics font 'Arial,14'
 set ytics font 'Arial,14'
 set termoption dashed
 
-plot "sinus" title "sinus"
+plot "cosinus_frequency" title "cosinus_frequency"
 
 
 unset multi
